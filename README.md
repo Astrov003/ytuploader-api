@@ -18,7 +18,7 @@ Instructions: (I am writing these instructions as a prototype, because in the te
 
 3. Make sure your account is verified. If not, go to https://www.youtube.com/verify to verify your account.
 
-4. Place *.mp4 video file in the working directory, and change the line
+4. Place "*.mp4" video file in the working directory, and change the line
 	mediaFile = MediaFileUpload('fairy.mp4') 
 to your file name.
 
