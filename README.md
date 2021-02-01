@@ -1,5 +1,6 @@
 YouTube Uploader
 
+
 This is a very simple script for uploading videos to YouTube.
 I was not satisfied with the applications I downloaded, so I decided to make one myself.
 
@@ -13,9 +14,15 @@ Instructions: (I am writing these instructions as a prototype, because in the te
 
 2. You need to install Python Library 
 
-pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+	pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
 
 3. Make sure your account is verified. If not, go to https://www.youtube.com/verify to verify your account.
+
+4. Place *.mp4 video file in the working directory, and change the line
+	mediaFile = MediaFileUpload('fairy.mp4') 
+to your file name.
+
+5. Run script and login to your channel. Token will be created. Close browser, and run script again to upload the video.
 
 Source Code:
 https://github.com/Astrov003/ytuploader-api
