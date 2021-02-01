@@ -26,6 +26,8 @@ to your file name.
 
 5. Run script and login to your channel. Token will be created. Close browser, and run script again to upload the video.
 
+This documentation needs to be updated, and it is a work in progress.
+
 Source Code:
 https://github.com/Astrov003/ytuploader-api
 
